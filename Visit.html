@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irvine Tourism Assigment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pictures/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">VISIT</a></li>
+                    <li><a href="">HISTORY</a></li>
+                </ul>  
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Visit Us</h1>
+    </section>
+
+<!---Visit Section-->   
+
+    <section class="visit-us">
+
+        <div class="row">
+            <div class="visit-col">
+                <h1>Eglinton Castle</h1>
+                <p>Shown on the right here is the ruins of Eglinton Castle.<br>
+                    Englinton Castle is actually technically in a town called Kilwinning, but it is very close to Irvine. <br>
+                    The castle was built in the 18th century and was the home of the Montgomerie family. <br>
+                    The castle was destroyed by fire in 1920 and has been a ruin ever since. <br>
+                    The castle is now a public park and is a popular place for walks and picnics. <br>
+                    Robert Burns, the famous Scottish poet, was a friend of the Montgomerie family and he wrote a poem about the castle. <br>
+                    To find out more about the castle, click the button below. </p>
+                <a href="https://en.wikipedia.org/wiki/Eglinton_Castle" target="_blank" class="hero-btn green-btn">Find out more here</a>
+            </div>
+            <div class="visit-col">
+                <img src="pictures/castle.jpg">
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="visit-col">
+                    <img src="pictures/beach.jpg">
+                </div>
+                <div class="visit-col">
+                    <h1>Irvine Beach</h1>
+                    <p>Shown on the left here is Irvine Beach. <br>
+                        Irvine Beach is a long sandy beach that is popular with locals and tourists. <br>
+                        The beach is a great place for a walk and is also popular with surfers. <br>
+                        The beach is also home to Irvine Beach Park, which is a popular place for families. <br>
+                        The beach has a famous dragon stone which can be located on the top of a hill at the beach.<br>
+                        To find out more about the beach and the dragon stone, click the button below. </p>
+                    <a href="https://ayrshireandarran.com/irvine-beach-park/" target="_blank" class="hero-btn green-btn">Find out more here</a>
+                </div>
+    </section>
+
+
+
+
+
+    
+<!---Had to use javascript for accesiblility on phone-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

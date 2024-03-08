@@ -208,5 +208,46 @@ h3{
     opacity: 1;
 }
 
+/*Visit Us Page*/
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(pictures/harbour.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.visit-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.visit-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.visit-col img{
+    width: 100%;
+}
+.visit-col h1{
+    padding-top: 0;
+}
+.visit-col p{
+    padding: 15px 0 25px;
+}
+.green-btn{
+    border: 1px solid darkgreen;
+    background: transparent;
+    color: darkgreen;
+}
+.green-btn:hover{
+    color: #fff;
+}
+
+
+
 
 
