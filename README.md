@@ -1,5 +1,15 @@
+Stage 1 
+
 Initially starting this project was hard as I wasn't able to find a motto/slogan and cannot find the year my town (Irvine) was founded.
 I drew on a piece of paper the layout i wanted my index page to be then i started to code it and make it as similar as possible.
-BY FAR the trickiest thing i had to do was make my page look good on mobile which initially i did not know what to do, so i watched some tutorials on how to implement it to this project and had a few misses and a few hits; creating the menu for mobile was extremely hard and my buttons which i tried to implement were not working for mobile. Geneuinely took me hours trying to find a solution for this.
+BY FAR the trickiest thing i had to do was make my page look good on mobile which initially i did not know what to do, so i watched some tutorials on how to implement it to this project and had a few misses and a few hits; creating the menu for mobile was extremely hard and my buttons which i have tried to add are still not currently working. (hopefully there is an update on this later)
 I decided to basically type random string's into places where i would put my real text to help with designing the layout of my page. Rather than stopping and thinking about what text i should add.
+
+Stage 2
+
+I have now created all the pages which are index.html, Visit.html and history.html I still need to top each page up with more information however I am now comtemplating creating a gallery page as having the static map on the home page doesn't look right for me. Looking at the marking scheme i may lose 2 marks for this however i honestly think putting it on a page of it's own with other images of my home town capture the essence of my home town more effectively.
+I have stuck to the basic/modern look of picture then text to the right and vice versa. 
+I am also currently thinking of adding a footer to my pages as having nothing at the bottom of my page looks bland.
+Finding places to visit and history of where i live is pretty hard as the only information i can get is from wikipedia as well as the fact that my town doesn't have a lot of excitement about it so my content can't actually be as long as I want it.
+Buttons for the menu are still not working yet (I've gave up to crack on with other things)
 
