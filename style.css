@@ -247,7 +247,27 @@ h3{
     color: #fff;
 }
 
+/*history*/
 
+.history-sec{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.history-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.history-col img{
+    width: 100%;
+}
+.history-col h1{
+    padding-top: 0;
+}
+.history-col p{
+    padding: 15px 0 25px;
+}
 
 
 

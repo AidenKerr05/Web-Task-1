@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irvine Tourism Assigment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pictures/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Visit.html">VISIT</a></li>
+                    <li><a href="history.html">HISTORY</a></li>
+                </ul>  
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>History Of Irvine</h1>
+    </section>
+
+    <!----History Section-->
+
+    <section class="history-sec">
+
+        <div class="row">
+            <div class="history-col">
+                <h1>Robert Burns</h1>
+                <p> Robert Burns, also known as Scotland's national poet or the Bard of Ayrshire, was a Scottish poet and lyricist born on January 25, 1759, in Alloway, Ayrshire, Scotland.
+                     He is widely regarded as the national poet of Scotland and is celebrated worldwide for his poetry, which often reflects Scottish culture and the spirit of the Scottish people.
+                        He is considered a pioneer of the Romantic movement and after his death, he became a great source of inspiration to the founders of both liberalism and socialism.
+                        Burns' poetry is characterized by its use of the Scots dialect, which he used to great effect in capturing the essence of Scottish life, culture, and dialectal expressions.
+                         Many of his poems explore themes such as love, nature, politics, and social justice. 
+                         Some of his most famous works include "Auld Lang Syne," "To a Mouse," "Tam o' Shanter," and "A Red, Red Rose."
+                         In addition to his poetry, Burns also collected and adapted traditional Scottish folk songs, often adding his own lyrics or variations.
+                          He is credited with preserving many traditional Scottish songs that might otherwise have been lost to history.
+                          Despite his relatively short life (he died at the age of 37), Burns left a lasting legacy on Scottish literature and culture.
+                           His works continue to be celebrated around the world, especially on Burns Night, an annual event held on January 25th to commemorate his birthday.
+                            During Burns Night celebrations, people gather to recite his poetry, eat traditional Scottish food (such as haggis), and raise a toast to the memory of Robert Burns. 
+                            Robert Burns had a significant connection to the town of Irvine in Ayrshire, Scotland.
+                              While he was born in Alloway, a village near Ayr, Burns spent a portion of his life in Irvine, particularly during his early adulthood. </p>
+
+
+                <a href="https://en.wikipedia.org/wiki/Robert_Burns" target="_blank" class="hero-btn green-btn">Find out about Burns here!</a>
+            </div>
+            <div class="history-col">
+                <img src="pictures/burns.jpg">
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="history-col">
+                    <img src="pictures/old.jpg">
+                </div>
+                <div class="history-col">
+                    <h1>Seagate Castle Ruins</h1>
+                    <p>Seagate Castle is a castle and fortified town house in North Ayrshire, in the town of Irvine, close to the River Irvine, Scotland.
+                        The castle was formerly a stronghold, a town house, and later a dower house of the Montgomery Clan. 
+                        The castle overlooks the oldest street in Irvine, which was once the main route between the town and the old harbour at Seagatefoot, which by 1606, was useless and abandoned due to silting. 
+                        The remains of the castle are protected as a scheduled ancient monument.
+                        It is recorded on the plaque at the entrance that Mary, Queen of Scots, stayed at the castle in 1563.
+                        The 3rd earl was a great supporter and he is said to have entertained the queen and her four Marys; Mary Seton; Mary Beaton; Mary Fleming; and Mary Livingston at the castle.
+                     </p>
+
+                        <a href="https://en.wikipedia.org/wiki/Seagate_Castle#" target="_blank" class="hero-btn green-btn">Find out about Seagate Castle here!</a>        
+                </div>
+    </section>     
+
+<!---Had to use javascript for accesiblility on phone-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
