@@ -7,9 +7,13 @@ I decided to basically type random string's into places where i would put my rea
 
 Stage 2
 
-I have now created all the pages which are index.html, Visit.html and history.html I still need to top each page up with more information however I am now comtemplating creating a gallery page as having the static map on the home page doesn't look right for me. Looking at the marking scheme i may lose 2 marks for this however i honestly think putting it on a page of it's own with other images of my home town capture the essence of my home town more effectively.
+I have now created all the pages which are index.html, Visit.html and history.html I still need to top each page up with more information however I am now comtemplating creating a gallery page to show off my town.
 I have stuck to the basic/modern look of picture then text to the right and vice versa. 
 I am also currently thinking of adding a footer to my pages as having nothing at the bottom of my page looks bland.
 Finding places to visit and history of where i live is pretty hard as the only information i can get is from wikipedia as well as the fact that my town doesn't have a lot of excitement about it so my content can't actually be as long as I want it.
 Buttons for the menu are still not working yet (I've gave up to crack on with other things)
+I also managed to remove the background of my Irvine logo, managed to do this on photoshop after watching tutorials. Was really proud of this.
+
+Stage 3
+I managed to incorporate my icons so the mobile display looks perfect for the website, I edited some code to tidy it up and fixed some mistakes, added a footer but I am unsure on the 7:5 ratio for visit.html
 
